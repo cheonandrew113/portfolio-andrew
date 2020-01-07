@@ -81,6 +81,8 @@
       opacity: 0;
       color: set-text-color($secondary-color);
       @include transition-ease;
+
+      padding: 14px;
   
       &:hover {
         color: set-text-color(set-text-color($secondary-color));

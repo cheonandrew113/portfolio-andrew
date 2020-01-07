@@ -189,6 +189,15 @@
   padding-bottom: 2rem;
 }
 
+.about .text-thirdly {
+  color: #ff652f;
+}
+
+.about p {
+  font-size: 17px;
+  padding: 8px;
+}
+
 .about_bio-image {
   height: 50vh;
   width: 100%;
@@ -220,7 +229,7 @@
 }
 
 .about_bio .text-secondary {
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .about .jobs {
@@ -230,21 +239,28 @@
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  grid-gap: 2rem;
+  grid-gap: 0rem;
 }
 
 .about .jobs_job {
   background: #414141;
-  padding: 0.5rem;
+  padding: 0.6rem;
   border-bottom: 5px solid #ff652f;
 }
 
-.about .jobs_job h2, .about .jobs_job h3 {
+.about .jobs_job h2 {
   margin: 0.5rem 0;
+  font-size: 26px;
+}
+
+.about .jobs_job h3 {
+  margin: 0.5rem 0;
+  font-size: 16px;
 }
 
 .about .jobs_job h6 {
   margin: 0.3rem 0;
+  font-size: 18px;
 }
 
 .about .social-icons {
@@ -357,6 +373,7 @@
   color: #000;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  padding: 14px;
 }
 
 .projects_btn:hover {
